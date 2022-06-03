@@ -241,6 +241,6 @@ class Cell {
   }
 }
 
-let newMaze = new Maze(500, 30, 30);
+/* let newMaze = new Maze(500, 30, 30);
 newMaze.setup();
-newMaze.draw();
+newMaze.draw(); */

@@ -5,10 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div class="complete">
+        <h3>Maze Completed.</h3>
+        <button class="replay" id="submit">Play again</button>
+        <button class="close" id="submit">Close</button>        
+    </div>
+    <form id="settings">
+        <label for="size"> Maze Size</label>
+        <input id="size" type="number" value="500"/></br>
+        <label for="rows">Rows/Columns</label>
+        <input id="rows" type="number" value="20"/></br>
+        <button type="submit" id="submit">Generate Maze</button>
+    </form>
     <canvas class="maze"></canvas>
-
     <script src="index.js"></script>
+    <script src="settings.js"></script>
 </body>
 </html>
